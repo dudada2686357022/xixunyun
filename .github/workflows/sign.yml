@@ -8,7 +8,8 @@ on:
     branches:
       - main
   schedule:
-    - cron: 0 0 8,20 * *
+    - cron: 0 0 8 * *
+    - cron: 0 0 20 * *
       
 jobs:
   build:
